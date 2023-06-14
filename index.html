@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>人性生活網</title>
-  <audio src="MainMusic.mp3" autoplay controls></audio>
+  <title>白老師帶你去日本</title>
+  <audio autoplay>
+    <source src="music/MainMusic.mp3" type="audio/mp3">
+  </audio>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    /* 一般的 CSS 樣式 */
-    .my-element {
-      width: 200px;
-      height: 200px;
-      background-color: red;
-    }
-
-    /* 在手機版解析度下的 CSS 樣式 */
-    @media (max-width: 768px) {
-      .my-element {
-        width: 100px;
-        height: 100px;
-        background-color: blue;
-      }
-    }
-  </style>
 </head>
 <body>
-  <div class="my-element"></div>
-    <h1>我的機機十公分</h1>
-    <img src="image/mainpic.webp">
-    <img src="image/mainpic.webp">
-    <img src="image/mainpic.webp">
-    <img src="image/mainpic.webp">
-    <img src="image/mainpic.webp">
+<style>
+    html {
+        height: 100%;
+    }
+
+    body {
+        background-image: url(image/bg.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    h1 {
+      font-family: msyh, sans-serif;
+      color: white;
+    }
+    .image-container img {
+    margin-bottom: 50px;
+    }
+
+</style>
+
+  <div class="image-container">
+    <center>
+      <h1 color="white">白老師帶你去日本</h1>
+      <img src="image/prince.png">
+      <hr>
+      <img src="image/mainpic.webp">
+      <img src="image/mainpic.webp">
+      <img src="image/mainpic.webp">
+      <img src="image/mainpic.webp">
+    </center>
+  </div>
+  
 </body>
 </html>

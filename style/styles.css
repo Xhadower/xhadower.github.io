@@ -19,3 +19,13 @@
     background-color: #ddd;
     color: black;
   }
+
+  body {
+    background-image: url("path/to/your/image.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  @font-face {
+    font-family: msyh;
+    src: url('font/msyh.ttc') format('truetype');
+  }
