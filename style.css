@@ -4,7 +4,7 @@
 }
 
 .toptext {
-  font-size: 50px;
+  font-size: 45px;
   margin-left: 720px;
 }
 
@@ -23,11 +23,16 @@ html {
 }
 
 body {
-  background-image: url(image/bk3.png);
+  background-image: url(image/bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
@@ -42,7 +47,7 @@ h1 {
 
 .shape-ex11 {
   width: 450px;
-  height: 200px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,4 +115,32 @@ h1 {
   text-align: right;
   display: flex;
   justify-content: center;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+}
+
+a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:active {
+  color: #ffffff;
 }
